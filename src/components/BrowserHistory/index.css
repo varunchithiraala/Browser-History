@@ -1,0 +1,142 @@
+.browser-history-app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.browser-logo-container {
+  background-color: #3367d6;
+  height: 8vh;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .browser-logo-container {
+    height: 10vh;
+    justify-content: space-around;
+  }
+}
+
+.browser-logo {
+  height: 20px;
+  width: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .browser-logo {
+    height: 30px;
+    width: 110px;
+  }
+}
+
+.input-search-container {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.search-logo-container {
+  text-align: center;
+  background-color: #2850a7;
+  height: 35px;
+  width: 45px;
+  padding: 5px;
+  border: 1px solid #ececec;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .search-logo-container {
+      height: 40px;
+      width: 70px;
+  }
+}
+
+.search {
+  height: 25px;
+  width: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .search {
+      height: 30px;
+      width: 30px;
+  }
+}
+
+.search-input {
+  color: #ffffff;
+  background-color: #2850a7;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+  height: 35px;
+  width: 200px;
+  border: 1px solid #ececec;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  padding: 15px;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .search-input {
+      height: 40px;
+      width: 440px;
+  }
+}
+
+.history-list-container {
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  box-shadow: 0px 1px 2px 0px #bfbfbf;
+}
+
+@media screen and (min-width: 768px) {
+  .history-list-container {
+      margin: 40px;
+  }
+}
+
+.history-list {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+  margin-left: 6px;
+  margin-right: 6px;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .history-list {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+.empty-history-message {
+  text-align: center;
+  height: 90vh;
+  color: #64748b;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .empty-history-message {
+    font-size: 26px;
+  }
+}
